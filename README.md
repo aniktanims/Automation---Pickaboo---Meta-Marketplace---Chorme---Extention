@@ -30,7 +30,8 @@ Software Engineer
 
 ##Disclaimer
 This extension was created as a test task to showcase my skills in building Chrome extensions that can scrape data from any marketplace. I selected **Pickaboo**, a well-known e-commerce store, as a demonstration of its functionality. The extension is designed solely for educational purposes to demonstrate my abilities.
-I am not responsible for any violations or misuse of this extension. Its usage is strictly for assessment and educational purposes. Any use of the extension outside of this scope, including scraping or automating actions on platforms without proper authorization, is not endorsed or supported by me.
+
+*** I am not responsible for any violations or misuse of this extension. Its usage is strictly for assessment and educational purposes. Any use of the extension outside of this scope, including scraping or automating actions on platforms without proper authorization, is not endorsed or supported by me.
 
 ## License
 
