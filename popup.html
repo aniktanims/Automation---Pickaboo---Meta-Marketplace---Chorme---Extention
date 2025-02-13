@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pickaboo Product Scraper</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #000000;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    button:hover {
+      background-color: #b91515;
+    }
+    #postToFacebook {
+      background-color: #000000;
+    }
+    #postToFacebook:hover {
+      background-color: #365899;
+    }
+    #result {
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      display: none;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .success {
+      color: green;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .error {
+      color: red;
+      margin-top: 10px;
+      text-align: center;
+    }
+    p {
+      margin: 5px 0;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+  <button id="scrapeButton">Start Scrape Product Info</button>
+  <button id="postToFacebook" style="display: none;">Post to Marketplace</button>
+  <div id="result"></div>
+  <footer>
+    <small>Developed By Mostofa Tanim Anik</small>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>

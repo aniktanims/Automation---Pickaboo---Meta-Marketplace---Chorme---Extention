@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Product Scraper Pickaboo",
+  "version": "1.0",
+  "description": "Scrape product information from Pickaboo.com and post to Facebook Marketplace",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.pickaboo.com/*",
+    "https://www.facebook.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.pickaboo.com/*"],
+      "js": ["content.js"]
+    },
+    {
+      "matches": ["https://www.facebook.com/marketplace/create/item"],
+      "js": ["facebook.js"]
+    }
+  ]
+}
